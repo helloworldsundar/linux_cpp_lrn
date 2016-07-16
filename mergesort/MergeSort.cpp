@@ -87,7 +87,6 @@ void MergeSort::Merge (int start, int mid, int end)
     ITERATE (n1)
     {
       lArr[i] = this->elem[start+i];
-      std::cout << "\t L[i]" << lArr[i];
     }
 
     ITERATE_(mid,end)
